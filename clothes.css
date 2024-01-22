@@ -1,0 +1,35 @@
+body{
+    background:antiquewhite
+}
+
+.navbar{ display:flex;font-family: sans-serif;align-items: center;color: black;text-transform: capitalize;height: 60px;background: black;color:white;
+
+}
+.nav1{font-size: 20px;margin-left: 20px}
+.nav2{
+    margin-left: 27%
+}
+.nav3{margin-left: 40px}
+.nav4{margin-left: 40px}
+.nav5{margin-left: 40px}
+.nav6{margin-left: 40px}
+#icons{margin-left: 250px}
+.cart{
+    width: 70px;height: 30px;margin-left: 40px;justify-content: center;display: flex;align-items: center;border-radius: 20px;background: orange;color: white
+}
+.content{display: grid;grid-template-columns:300px 200px}
+.image1{
+    border: 1px solid black;border-radius: 20px;width: 400px;height: 400px;background-image: url(./winter.jpg);background-size: cover;box-shadow: 10px 10px 100px #ff9ef3;
+    margin-top: 122px;
+   ;transform: skew(5deg , 10deg);grid-column: 2;grid-row: 1;margin-left: 450px;
+}
+h1{font-size: 80px;width: 370px;text-transform: uppercase;color:#B80000;font-weight: bolder;text-shadow: 10px 10px 20px #910A67}
+.fashion{
+    width: 125px;height: 100px;border: 1px solid black;border-radius: 50%;    margin-left: -45px;
+    margin-top: -45px;background: #ff9ef3;display: flex ;justify-content: center;align-items: center;text-transform: capitalize;box-shadow: 1px 1px 20px #ff88f5
+}
+h2{text-transform: capitalize;font-size: 30px;font-weight: 400;text-shadow: 5px 5px 10px rgb(255, 0, 234)}
+
+.div2{
+grid-column: 1;grid-row: 1;margin-top: 80px;margin-left: 100px;width: 100%
+}
